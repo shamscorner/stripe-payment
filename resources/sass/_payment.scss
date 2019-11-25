@@ -1,0 +1,38 @@
+.payment-container {
+    .container-back {
+        background: $pink;
+        border-radius: 10px;
+        box-shadow: 5px 5px 20px #aaaaaa;
+
+        .container-front {
+            position: relative;
+            top: -10px;
+            left: -10px;
+            border-radius: 10px;
+            background: white;
+            padding: 20px;
+            box-shadow: -5px -5px 20px #04040440;
+
+            h1 {
+                color: $pink;
+            }
+
+            .c-btn-main {
+                background: $pink;
+                color: white;
+                padding: 15px 20px;
+                border-radius: 35px;
+                font-size: 16px;
+                border: none;
+
+                &:hover {
+                    background: #da5f88;
+                }
+
+                &:focus {
+                    outline: none;
+                }
+            }
+        }
+    }
+}
